@@ -1,0 +1,15 @@
+name: getx_getview
+description: Generate GetView with its GetxController
+repository: https://github.com/my_org/my_repo
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.49 <0.1.0"
+
+vars:
+  name:
+    type: string
+    description: View name
+    default: Page1
+    prompt: What is your view name?
