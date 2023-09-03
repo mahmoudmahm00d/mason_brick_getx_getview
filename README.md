@@ -4,6 +4,15 @@
 
 Generate GetView with it's controller
 
+## File Structure
+
+```
+└───{{name}}
+    ├───components/
+    ├───{{name}}_screen.dart
+    └───{{name}}_screen_controller.dart
+```
+
 ## Usage
 
 1. Add the brick
